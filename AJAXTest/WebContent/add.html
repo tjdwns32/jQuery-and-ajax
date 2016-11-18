@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>myFirstPage</title>
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <script src = js/add.js></script>
+</head>
+<body>
+<!--form 을 사용하면 페이지가 다날아가고 새로 호출되서 안쓰는게 좋음  -->
+<!-- submit또한 form 아래에서만 유효하므로 같이 안쓰임 불쌍한 것   -->
+		<input type = "text" id = "first">+<input type = "text" id ="second"><br>
+		<input type = "button" value = "서버로 전송" onclick = "callServer()"><br>
+
+	계산된 결과는 :<span>여기에 결과가 나와요!!</span>
+</body>
+</html>
